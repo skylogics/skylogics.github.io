@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gamics - Create Manage Matches</title>
+  <title>SkyLogics</title>
 
   <!-- 
     - favicon
@@ -41,10 +41,13 @@
 
     <div class="header-top">
       <div class="container">
-
+        <!--
         <div class="countdown-text">
+          
           Exclusive Black Friday ! Offer <span class="span skewBg">10</span> Days
+        
         </div>
+        
 
         <div class="social-wrapper">
 
@@ -79,6 +82,7 @@
           </ul>
 
         </div>
+        -->
 
       </div>
     </div>
@@ -86,7 +90,7 @@
     <div class="header-bottom skewBg" data-header>
       <div class="container">
 
-        <a href="#" class="logo">Gamics</a>
+        <a href="#" class="logo">SkyLogics</a>
 
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
@@ -96,9 +100,10 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#live" class="navbar-link skewBg" data-nav-link>Live</a>
+              <a href="#ourgames" class="navbar-link skewBg" data-nav-link>Our Games</a>
             </li>
 
+            <!--
             <li class="navbar-item">
               <a href="#features" class="navbar-link skewBg" data-nav-link>Features</a>
             </li>
@@ -114,12 +119,14 @@
             <li class="navbar-item">
               <a href="#" class="navbar-link skewBg" data-nav-link>Contact</a>
             </li>
-
+            -->
           </ul>
         </nav>
 
+        
         <div class="header-actions">
 
+          <!--
           <button class="cart-btn" aria-label="cart">
             <ion-icon name="cart"></ion-icon>
 
@@ -129,13 +136,15 @@
           <button class="search-btn" aria-label="open search" data-search-toggler>
             <ion-icon name="search-outline"></ion-icon>
           </button>
-
+          -->
           <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
             <ion-icon name="menu-outline" class="menu"></ion-icon>
             <ion-icon name="close-outline" class="close"></ion-icon>
           </button>
 
         </div>
+        
+
 
       </div>
     </div>
@@ -150,6 +159,7 @@
     - #SEARCH BOX
   -->
 
+  <!--
   <div class="search-container" data-search-box>
 
     <div class="input-wrapper">
@@ -163,7 +173,7 @@
     </div>
 
   </div>
-
+  -->
 
 
 
@@ -192,7 +202,7 @@
               researcher.
             </p>
 
-            <button class="btn skewBg">Read More</button>
+            <button class="btn skewBg" onClick="scrollToOurGames();" >Games</button>
 
           </div>
 
@@ -255,13 +265,14 @@
           - #LATEST GAME
         -->
 
-        <section class="section latest-game" aria-label="latest game">
+        <!--
+        <section class="section latest-game" aria-label="latest game" id="latestgames">
           <div class="container">
 
             <p class="section-subtitle">Latest Releases</p>
 
             <h2 class="h2 section-title">
-              Create & <span class="span">Manage</span>
+              Our <span class="span">Games</span>
             </h2>
 
             <ul class="has-scrollbar">
@@ -315,7 +326,9 @@
 
                 </div>
               </li>
+              
 
+              
               <li class="scrollbar-item">
                 <div class="latest-game-card">
 
@@ -340,13 +353,16 @@
 
                 </div>
               </li>
+              
+
+
 
             </ul>
 
           </div>
         </section>
 
-
+      -->
 
 
 
@@ -354,6 +370,7 @@
           - #LIVE MATCH
         -->
 
+        <!--
         <section class="section live-match" id="live" aria-label="live match">
           <div class="container">
 
@@ -396,6 +413,7 @@
 
           </div>
         </section>
+        -->
 
       </div>
 
@@ -407,7 +425,7 @@
         - #FEATURED GAME
       -->
 
-      <section class="section featured-game" id="features" aria-label="featured game">
+      <section class="section featured-game" id="ourgames" aria-label="featured game">
         <div class="container">
 
           <h2 class="h2 section-title">
@@ -462,6 +480,7 @@
               </div>
             </li>
 
+            
             <li class="scrollbar-item">
               <div class="featured-game-card">
 
@@ -599,6 +618,100 @@
 
               </div>
             </li>
+            
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/featured-game-3.jpg" width="450" height="600" loading="lazy"
+                    alt="Egypt Hunting Gamers" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      Egypt Hunting <span class="span">Gamers</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      Egypt Hunting <span class="span">Gamers</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="featured-game-card">
+
+                <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+                  <img src="./assets/images/featured-game-4.jpg" width="450" height="600" loading="lazy"
+                    alt="Just for Gamers" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" tabindex="-1">
+                      Just for <span class="span">Gamers</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+                <div class="card-content-overlay">
+
+                  <img src="./assets/images/featured-game-icon.png" width="36" height="61" loading="lazy" alt=""
+                    class="card-icon">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      Just for <span class="span">Gamers</span>
+                    </a>
+                  </h3>
+
+                  <span class="card-meta">
+                    <ion-icon name="notifications"></ion-icon>
+
+                    <span class="span">Playstation 5, Xbox</span>
+                  </span>
+
+                </div>
+
+              </div>
+            </li>
+            
+
 
           </ul>
 
@@ -613,6 +726,7 @@
         - #SHOP
       -->
 
+      <!--
       <section class="section shop" id="shop" aria-label="shop"
         style="background-image: url('./assets/images/shop-bg.jpg')">
         <div class="container">
@@ -748,7 +862,7 @@
 
         </div>
       </section>
-
+      -->
 
 
 
@@ -757,6 +871,7 @@
         - #BLOG
       -->
 
+      <!--
       <section class="section blog" id="blog" aria-label="blog">
         <div class="container">
 
@@ -910,7 +1025,7 @@
 
         </div>
       </section>
-
+      -->
 
 
 
@@ -919,6 +1034,7 @@
         - #NEWSLETTER
       -->
 
+      <!--
       <section class="newsletter" aria-label="newsletter">
         <div class="container">
 
@@ -949,6 +1065,7 @@
 
         </div>
       </section>
+      -->
 
     </article>
   </main>
@@ -968,14 +1085,15 @@
 
         <div class="footer-brand">
 
-          <a href="#" class="logo">Gamics</a>
+          <a href="#" class="logo">SkyLogics</a>
 
           <p class="footer-text">
-            Gamics marketplace the relase etras thats sheets continig passag.
+            Contacts:
           </p>
 
           <ul class="contact-list">
 
+            <!--
             <li class="contact-item">
               <div class="contact-icon">
                 <ion-icon name="location"></ion-icon>
@@ -993,19 +1111,22 @@
 
               <a href="tel:+241245654235" class="item-text">Phone : +24 1245 654 235</a>
             </li>
+            -->
 
             <li class="contact-item">
               <div class="contact-icon">
                 <ion-icon name="mail-open"></ion-icon>
               </div>
 
-              <a href="mailto:info@exemple.com" class="item-text">Email : info@exemple.com</a>
+              <a href="javascript:void(0);" class="item-text">Email : admin@skylogics.co.kr</a>
             </li>
 
           </ul>
 
         </div>
 
+
+        <!--
         <ul class="footer-list">
 
           <li>
@@ -1114,6 +1235,8 @@
           </div>
 
         </div>
+        -->
+
 
       </div>
     </div>
@@ -1122,12 +1245,13 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 Gamics. All Right Reserved by <a href="#" class="copyright-link">codewithsadee</a>
+          &copy; 2023 Skylogics Co. Ltd. <!-- All Right Reserved by <a href="#" class="copyright-link">codewithsadee</a> -->
         </p>
 
+<!--
         <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
           class="footer-bottom-img">
-
+-->
       </div>
     </div>
 
@@ -1160,6 +1284,12 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <script>
+      function scrollToOurGames() {
+        const element = document.getElementById("ourgames");
+        element.scrollIntoView({ behavior: 'smooth'});
+      }
+    </script>
 </body>
 
 </html>
